@@ -2,47 +2,63 @@ h1
 {
     color: black;
     font-family: 'Courier New', Courier, monospace;
-    background-color: gray;
     text-align: center;
+    border-radius: 50px / 15px;
+    background-color: greenyellow;
+    padding: 5px;
+    width: 80;
+    height: 80;
 }
+
 
 head
 {
     background-color: gray;
 }
 
-nav
-{
-    background-color: gray;
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-}
-
 h2
 {
     font-family: Arial, Helvetica, sans-serif;
-    color: black;
+    color: whitesmoke;
     text-align: center;
 }
 
 h3
 {
+ color: black;
  text-align: center;
 }
 
 body
 { 
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 100%;
+    font-size: 100%; 
+}
 
+body.Soccer{
+    background-size: cover;
+    background-image: url(https://images.freeimages.com/images/large-previews/167/soccer-area-1306731.jpg?fmt=webp&h=350)   
+}
+body.GAA{
+    background-size: cover;
+    background-image: url(https://images.freeimages.com/images/large-previews/555/grass-ii-1173864.jpg?fmt=webp&w=500)   
+}
+
+body.Home{
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/170034366/photo/runway-number-one.webp?b=1&s=612x612&w=0&k=20&c=qgCdQlPGTvM-matf4O783AOSC1iwEGXHJyn8tngPWPg=)  
+}
+
+body.Rugby{
+    background-size: cover;
+    background-image: url(https://media.istockphoto.com/id/601133056/photo/white-line-on-a-playing-field.webp?b=1&s=612x612&w=0&k=20&c=hgADza989Ha80rxkno6iNcDkwCoiMlKUmUY4ZPpKmno=)  
 }
 
 p
 {
     font-family: 'Courier New', Courier, monospace;
-    color: black;
+    color: white;
 }
-
 
 img
 {
@@ -53,13 +69,63 @@ img
 footer
 {
     background-color: gray;
-    text-align: center;
-}
-
-p1
-{
-    text-align: center;
     color: red;
+    text-align: center;
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
 }
 
+p4{
+    color: black;
+}
+
+ul.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    text-align: center;
+  }
+  
+  li.nav {
+    float: left;
+    border-right: 1px solid #bbb;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #4CAF50;
+  }
+
+  ul {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;  
+  }
+
+  li{
+    color: white;  
+  }
+
+  li.GAA{
+    color: black;
+  }
+
+  ol{
+    color: white;
+    font-family: 'Courier New', Courier, monospace;  
+  }
 
